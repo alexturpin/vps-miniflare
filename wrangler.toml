@@ -1,0 +1,12 @@
+name = "bettertax"
+account_id = ""
+type = "javascript"
+compatibility_date = "2023-03-14"
+
+[site]
+bucket = "./src/public"
+entry-point = "./src/server/worker.ts"
+
+kv_namespaces = [
+  { binding = "TDS", id = "TODO" }
+]

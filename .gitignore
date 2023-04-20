@@ -1,0 +1,16 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+
+src/**/data/local
+src/**/xml/*/*.pdf
+src/**/xml/*/*.db
+
+/playwright-results
+/playwright/.cache
+
+src/dev/cra/forms-downloader/downloads
+src/dev/**/*.crt
+src/dev/**/*.key

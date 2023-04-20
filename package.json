@@ -1,0 +1,33 @@
+{
+  "name": "bettertax",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --loader tsx --experimental-vm-modules node_modules/.bin/vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@hattip/adapter-cloudflare-workers": "^0.0.24",
+    "@hattip/core": "^0.0.24",
+    "@hattip/response": "^0.0.24",
+    "@hattip/router": "^0.0.24",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite-plugin-ssr": "^0.4.114"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230404.0",
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.3",
+    "@vitejs/plugin-react": "^3.1.0",
+    "esbuild": "^0.17.14",
+    "miniflare": "^2.13.0",
+    "modern-node-polyfills": "^0.1.0",
+    "prettier": "^2.8.7",
+    "tsx": "^3.12.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1"
+  }
+}
