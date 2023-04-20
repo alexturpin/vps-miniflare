@@ -111,8 +111,8 @@ export default function vitePlugin(options: Options): PluginOption {
         try {
           // this may fail in custom server mode
           await server.transformRequest(workerFile)
-        } catch {
-          // don't care
+        } catch (err) {
+          console.error(err)
         }
       }
     },
